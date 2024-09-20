@@ -1,0 +1,148 @@
+/* PortfolioPage.css */
+
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  height: 100%;
+  /* background: rgb(255,227,244); */
+  background: radial-gradient(circle, rgb(255, 237, 248) 0%, rgba(222,239,255,1) 47%, rgba(253,238,222,1) 100%);
+  backdrop-filter: blur(30px);
+  /* background-image: url('../img/bg.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  overflow: auto;
+}
+
+.portfolio-main {
+  text-align: center;
+  width: 100%;
+}
+
+.name {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.portfolio-subtitle {
+  font-size: 1.8rem;
+  color: #804d12;
+  margin-top: 0px;
+}
+
+.introduction-container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 50px;
+}
+
+.introduction-container img {
+  width: 350px;
+  height: 350px;
+  max-width: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  text-align: justify;
+  flex: 1;
+}
+
+.intro-text {
+  margin: 0px;
+}
+
+.credibility {
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 50px;
+  padding: 50px;
+}
+
+.experience-container {
+  margin-top: 30px;
+}
+
+.exp-sub-title {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.exp-desc {
+  font-size: 1.0rem;
+}
+
+.skill-container {
+  margin-top: 30px;
+}
+
+@media(max-width: 480px){
+  .credibility {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+  }
+
+  .name {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 2.5rem;
+  }
+
+  .portfolio-subtitle, .title {
+    font-size: 1.2rem;
+  }
+
+  .introduction-container {
+    padding: 25px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .introduction-container img {
+    width: 300px;
+    height: auto;
+  }
+
+  .introduction {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.95rem;
+    flex: 1;
+  }
+
+  .intro-text {
+    margin-top: 20px;
+  }
+
+  .image-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 35px;
+  }
+
+  .skill-container {
+    margin-bottom: 50px;
+  }
+}
