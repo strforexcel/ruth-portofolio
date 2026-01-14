@@ -1,13 +1,34 @@
 import React from "react";
-import { works, projectWorks } from "../component/data";
+import { works, projectWorks, internWorks } from "../component/data";
 import "./WorksPage.css";
 
 const WorksPage = () => {
   return (
     <div className="works">
       <div className="title">Featured Works</div>
+      <div className="intern-container">
+        <div className="top-sub-title">Panorama JTB (2024-2025)</div>
+        <div className="intern-image-container">
+          {internWorks.map((work, index) => (
+            <a
+              className="link"
+              href={work.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="intern-grid-item">
+                <img src={work.image} alt={work.alt} />
+                {work.sub_title && (
+                  <div className="sub-title">{work.sub_title}</div>
+                )}
+                <div className="desc">{work.desc}</div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
       <div className="copywriting-container">
-        <div className="top-sub-title">Social Media Works</div>
+        <div className="top-sub-title">Social Media Jakarta (2023)</div>
         <div className="works-image-container">
           {works.map((work, index) => (
             <a
@@ -26,7 +47,7 @@ const WorksPage = () => {
         </div>
       </div>
       <div className="event-container">
-        <div className="top-sub-title">Event Works</div>
+        <div className="top-sub-title">Event Works (2022-Now)</div>
         <div className="event-image-container">
           {projectWorks.map((project, index) => (
             <div>

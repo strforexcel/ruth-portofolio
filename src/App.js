@@ -20,6 +20,15 @@ function App() {
   ];
   const location = useLocation();
   const navigate = useNavigate();
+  const phoneNumber = "6281908946873"; // use country code, no +
+  const email = "ruthgabriela.work@gmail.com";
+
+  const whatsappMessage = encodeURIComponent(
+    "Hi Ruth, I'm interested in working together."
+  );
+
+  const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
+  const emailUrl = `mailto:${email}?subject=Project%20Inquiry`;
   return (
     <div className="App">
       <Layout>
@@ -44,8 +53,38 @@ function App() {
             <Route path="/works" element={<WorksPage />} />
           </Routes>
         </Content>
+        <footer className="footer">
+          <div className="footer-container">
+            <div className="footer-text">
+              <h3>Get in Touch</h3>
+              <p>
+                Interested in working together or have something in mind?
+                <br />
+                Feel free to reach out anytime.
+              </p>
+            </div>
+
+            <div className="footer-actions">
+              <a
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer-button"
+              >
+                WhatsApp
+              </a>
+
+              <a href={emailUrl} className="footer-button">
+                Email
+              </a>
+            </div>
+
+            <small className="footer-note">
+              Let’s build something meaningful.
+            </small>
+          </div>
+        </footer>
       </Layout>
-      {/* <PortfolioPage /> */}
     </div>
   );
 }

@@ -8,18 +8,32 @@ const PortfolioPage = () => {
     <div className="portfolio-container">
       <main className="portfolio-main">
         <h1 className="name">Ruth Gabriela</h1>
-        <p className="portfolio-subtitle">Social Media Copywriter Portfolio</p>
+        <p className="portfolio-subtitle">
+          Content Creator, Scriptwriting, & Social Media Management Portfolio
+        </p>
       </main>
       <div className="introduction-container">
         <img src={photo} alt="Ruth Gabriela" />
         <div className="introduction">
           <p className="intro-text">
             Hello, I’m{" "}
-            <span style={{ fontWeight: "bold", color: "#804d12" }}>
+            <span
+              style={{
+                fontWeight: "bold",
+                color: "#fff",
+                textShadow: "2px 2px 10px #ff90d5",
+              }}
+            >
               Ruth Gabriela
             </span>
             , a Communication graduate with experience in{" "}
-            <span style={{ fontWeight: "bold", color: "#804d12" }}>
+            <span
+              style={{
+                fontWeight: "bold",
+                color: "#fff",
+                textShadow: "2px 2px 10px #ff90d5",
+              }}
+            >
               content creation, brand management, digital marketing, and social
               media management.
             </span>{" "}
@@ -29,7 +43,13 @@ const PortfolioPage = () => {
           <p className="intro-text">
             Through my work, I’ve realized how important social media is for
             brand marketing. It’s not just about promoting products but about
-            <span style={{ fontWeight: "bold", color: "#804d12" }}>
+            <span
+              style={{
+                fontWeight: "bold",
+                color: "#fff",
+                textShadow: "2px 2px 10px #ff90d5",
+              }}
+            >
               {" "}
               creating real connections between brands and people.
             </span>{" "}
@@ -39,7 +59,13 @@ const PortfolioPage = () => {
           </p>
           <p className="intro-text">
             I believe that{" "}
-            <span style={{ fontWeight: "bold", color: "#804d12" }}>
+            <span
+              style={{
+                fontWeight: "bold",
+                color: "#fff",
+                textShadow: "2px 2px 10px #ff90d5",
+              }}
+            >
               building strong relationships between brands and their audiences
               is key to success
             </span>

@@ -10,18 +10,19 @@
   background-position: center;
   background-blend-mode: multiply;
   overflow: auto;
+  padding-top: 8rem;
   }
   
   .title {
     font-size: 1.6rem;
     font-weight: bold;
-    color: #804d12;
+    color: #ff90d5;
   }
   
   .top-sub-title {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #804d12;
+    color: #ff90d5;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
@@ -29,7 +30,7 @@
 
   .sub-title {
     font-size: 1.2rem;
-    color: #804d12;
+    color: #ff90d5;
     margin-top: 10px;
     text-align: center;
   }
@@ -39,6 +40,16 @@
     text-align: center;
   }
   
+  .intern-image-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 50px;
+    align-items: center;
+    /* justify-content: center; */
+  }
+
   .works-image-container {
     /* width: 100%; */
     display: grid;
@@ -47,6 +58,10 @@
     gap: 50px;
     align-items: center;
     justify-content: center;
+  }
+
+  .copywriting-container {
+    margin-top: 50px;
   }
 
   .event-container {
@@ -66,6 +81,22 @@
   a {
     text-decoration: none;
     color: inherit;
+  }
+  
+  .intern-grid-item {
+    display: flex; /* Use flexbox to center content within each grid item */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevent overflow */
+  }
+  
+  .intern-image-container img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    max-width: 100%;
+    border-radius: 20px;
   }
   
   .grid-item {

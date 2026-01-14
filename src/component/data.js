@@ -19,6 +19,42 @@ import stour1 from "../img/events/Silver_s tour.jpg";
 import stour2 from "../img/events/crew.jpg";
 import stour3 from "../img/events/silvers tour.jpg";
 import stour4 from "../img/events/stourcrew.jpg";
+//intern works
+import p1 from "../img/panorama/1.jpeg";
+import p2 from "../img/panorama/2.jpeg";
+import p3 from "../img/panorama/3.jpeg";
+import p4 from "../img/panorama/4.jpeg";
+
+const internWorks = [
+  {
+    image: p1,
+    alt: "!NSPYRO MOVES",
+    sub_title: null,
+    desc: "Project Manager of Collaboration Project",
+    link: "https://www.instagram.com/reel/DHNEFbGv635/?igsh=MWJmbm13MWpoZzZldQ==",
+  },
+  {
+    image: p2,
+    alt: "Content Planning",
+    sub_title: null,
+    desc: "Talent | Content Planning",
+    link: "https://www.instagram.com/reel/DFpD1rAReBd/?igsh=MWtibHFnZ2xiN3U5bA==",
+  },
+  {
+    image: p3,
+    alt: "Voiceover Talent",
+    sub_title: null,
+    desc: "Voiceover Talent | Content Planning",
+    link: "https://www.instagram.com/reel/DFZryj3zjL9/?igsh=d2hkMnAwbmNkMTlq",
+  },
+  {
+    image: p4,
+    alt: "Content Creator",
+    sub_title: null,
+    desc: "Content Creator",
+    link: "https://www.instagram.com/reel/DEj5-WuT6CB/?igsh=dGRrMzM1ajJkYmRt",
+  },
+];
 
 const works = [
   {
@@ -158,4 +194,4 @@ const projectWorks = [
   },
 ];
 
-export { works, projectWorks };
+export { internWorks, works, projectWorks };

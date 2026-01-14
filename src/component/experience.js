@@ -1,8 +1,13 @@
 const experience = [
   {
+    title: "Digital Marketing Intern",
+    organization: "Panorama JTB",
+    period: "November 2024 - Mei 2025",
+  },
+  {
     title: "Head of PR",
     organization: "Nextgen WFC",
-    period: "October 2020 - now",
+    period: "October 2020 - December 2024",
   },
   {
     title: "Stage Manager",

@@ -1,5 +1,12 @@
 /* PortfolioPage.css */
 
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('/public/GlacialIndifference-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .portfolio-container {
   display: flex;
   flex-direction: column;
@@ -15,6 +22,7 @@
   background-position: center;
   background-blend-mode: multiply;
   overflow: auto;
+  padding-top: 50px;
 }
 
 .portfolio-main {
@@ -25,13 +33,21 @@
 .name {
   font-size: 4rem;
   font-weight: bold;
-  color: #000;
+  color: #fff;
+  /* -webkit-text-stroke: 1px #ff90d5; */
+  margin-bottom: 0;
+  text-shadow: 2px 2px 10px #ff90d5;
+  font-family: 'GlacialIndifference', sans-serif;
 }
 
 .portfolio-subtitle {
   font-size: 1.8rem;
-  color: #804d12;
+  font-weight: 400;
+  color: #ffedf8;
+  /* -webkit-text-stroke: 1px #ff90d5; */
+  text-shadow: 2px 2px 6px #ff90d5;
   margin-top: 0px;
+  font-family: 'GlacialIndifference', sans-serif;
 }
 
 .introduction-container {
