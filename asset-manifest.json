@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ruth-portofolio/static/css/main.5a59a20b.css",
-    "main.js": "/ruth-portofolio/static/js/main.7af29dbe.js",
+    "main.css": "/ruth-portofolio/static/css/main.74fd4e95.css",
+    "main.js": "/ruth-portofolio/static/js/main.74accebc.js",
     "static/js/453.955c220b.chunk.js": "/ruth-portofolio/static/js/453.955c220b.chunk.js",
     "static/media/IMG_1380.PNG": "/ruth-portofolio/static/media/IMG_1380.4aadf671a9ae3a146acb.PNG",
     "static/media/IMG_1384.PNG": "/ruth-portofolio/static/media/IMG_1384.798f1cdd8124d1937567.PNG",
@@ -30,12 +30,12 @@
     "static/media/maharaja_acehgayo.jpg": "/ruth-portofolio/static/media/maharaja_acehgayo.eb53be83c2a599df9c3f.jpg",
     "static/media/GlacialIndifference-Regular.otf": "/ruth-portofolio/static/media/GlacialIndifference-Regular.884dc679b35db5f785f2.otf",
     "index.html": "/ruth-portofolio/index.html",
-    "main.5a59a20b.css.map": "/ruth-portofolio/static/css/main.5a59a20b.css.map",
-    "main.7af29dbe.js.map": "/ruth-portofolio/static/js/main.7af29dbe.js.map",
+    "main.74fd4e95.css.map": "/ruth-portofolio/static/css/main.74fd4e95.css.map",
+    "main.74accebc.js.map": "/ruth-portofolio/static/js/main.74accebc.js.map",
     "453.955c220b.chunk.js.map": "/ruth-portofolio/static/js/453.955c220b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a59a20b.css",
-    "static/js/main.7af29dbe.js"
+    "static/css/main.74fd4e95.css",
+    "static/js/main.74accebc.js"
   ]
 }
