@@ -80,7 +80,7 @@ function App() {
             </div>
 
             <small className="footer-note">
-              Let’s build something meaningful.
+              Helping brands connect, engage, and grow online.
             </small>
           </div>
         </footer>

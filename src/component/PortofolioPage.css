@@ -118,10 +118,15 @@
     padding-left: 25px;
     padding-right: 25px;
     font-size: 2.5rem;
+    margin-top: 4rem;
   }
 
   .portfolio-subtitle, .title {
     font-size: 1.2rem;
+  }
+
+  .portfolio-subtitle {
+    padding: 0 25px;
   }
 
   .introduction-container {
@@ -136,8 +141,7 @@
   }
 
   .introduction-container img {
-    width: 300px;
-    height: auto;
+    width: 100%;
   }
 
   .introduction {

@@ -29,10 +29,7 @@
 
 .footer {
   width: 100%;
-  margin-top: 1rem;
   margin-bottom: 0.8rem;
-  /* padding: 3rem 1.5rem; */
-  border-top: 1px solid #e5e5e5;
   z-index: 50;
 }
 
@@ -67,7 +64,7 @@
 .footer-button {
   padding: 0.5rem 1.5rem;
   border-radius: 9999px;
-  border: 1px solid #ffffff;
+  border: 1px solid #252525;
   text-decoration: none;
   font-size: 0.95rem;
   transition: all 0.2s ease;
@@ -75,9 +72,16 @@
 
 .footer-button:hover {
   background: linear-gradient(45deg, rgb(255, 237, 248) 0%, rgba(222,239,255,1) 47%, rgba(253,238,222,1) 100%);
-  color: #000000;
+  color: #ff90d5;
+  border-color: #ff90d5;
 }
 
 .footer-note {
   font-size: 0.85rem;
+}
+
+@media(max-width:480px){
+  .footer {
+    margin-bottom: 2.4rem;
+  }
 }

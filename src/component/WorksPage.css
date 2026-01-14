@@ -1,16 +1,9 @@
 .works {
     gap: 50px;
-    padding: 50px;
+    padding: 7rem 25px 50px 25px;
     height: 100%;
     background: radial-gradient(circle, rgb(255, 237, 248) 0%, rgba(222,239,255,1) 47%, rgba(253,238,222,1) 100%);
-  backdrop-filter: blur(30px);
-  /* background-image: url('../img/bg.jpg'); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: multiply;
-  overflow: auto;
-  padding-top: 8rem;
+    overflow: auto;
   }
   
   .title {
@@ -130,23 +123,24 @@
       }
     
       .works {
-        padding: 25px;
+        padding: 7rem 25px 50px 25px;
       }
 
-      .works-image-container img {
+      .intern-image-container img, .works-image-container img, .event-image-container img {
         width: auto;
         height: 300px;
         object-fit: cover;
         max-width: 100%;
         border-radius: 20px;
       }
-    
-      .event-image-container img {
-        width: auto;
-        height: 300px;
-        object-fit: cover;
-        max-width: 100%;
-        border-radius: 20px;
+
+      .intern-image-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
       }
 
       .works-image-container {
